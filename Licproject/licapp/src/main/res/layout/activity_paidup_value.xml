@@ -1,0 +1,211 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="Birth Date(Self)"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnbirthdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary" />
+
+
+            <DatePicker
+                android:id="@+id/birthdatepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtAge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Age"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="DOC"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary" />
+
+            <DatePicker
+                android:id="@+id/Docdatepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/txtPlanNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Plan Number"/>
+
+
+            <EditText
+                android:id="@+id/txtPlanName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Plan Name"/>
+
+            <EditText
+                android:id="@+id/txtTerm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Term"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="Premium Mode"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/modespinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/modes_arrays" />
+
+
+            <EditText
+                android:id="@+id/txtSumAssured"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Sum Assured"/>
+
+            <EditText
+                android:id="@+id/txtPremium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Premium Amount"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="FUP Date"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnfupdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary" />
+
+            <DatePicker
+                android:id="@+id/fupdatepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="Current Date :"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncurrentdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary" />
+
+
+            <DatePicker
+                android:id="@+id/currentdatepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCalculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Calculate"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorPrimary" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/btnback"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/textColorPrimary"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

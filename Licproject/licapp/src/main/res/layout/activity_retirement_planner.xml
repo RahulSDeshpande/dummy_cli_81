@@ -1,0 +1,116 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Enter Name"/>
+        <EditText
+            android:id="@+id/txtAge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Age"/>
+
+            <EditText
+                android:id="@+id/txtretirementage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Expected Retirement Age"/>
+
+            <EditText
+                android:id="@+id/currentexp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Current Expense Per Month"/>
+            <EditText
+                android:id="@+id/inflation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Expected Inflation Rate (%)"/>
+            <EditText
+                android:id="@+id/monthlysaving"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Current Monthly Saving"/>
+            <EditText
+                android:id="@+id/rateofreturn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Expected Rate Of Return (%)"/>
+            <EditText
+                android:id="@+id/rateofinterest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Rate Of Interest (%)"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCalculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Calculate"
+                    android:textColor="@color/textColorPrimary" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/btnback"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/textColorPrimary"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

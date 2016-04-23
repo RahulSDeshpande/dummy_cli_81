@@ -1,0 +1,106 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_toolbar"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewlogo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/smartset_logo"
+            android:clickable="true"
+            android:onClick="startAnimation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_registration"
+            android:text="Registration"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="7dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check For Update"
+            android:id="@+id/btn_chkupdate"
+            android:layout_marginTop="7dp"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dealer Network"
+            android:id="@+id/btn_dealernetwork"
+            android:layout_marginTop="7dp"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share / Refer"
+            android:id="@+id/btn_sharerefer"
+            android:layout_marginTop="7dp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/textColorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate Us With 5 Star"
+            android:id="@+id/btn_rateus"
+            android:layout_marginTop="7dp"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimary" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:id="@+id/btn_aboutus"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimary" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

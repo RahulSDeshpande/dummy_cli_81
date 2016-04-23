@@ -1,0 +1,100 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_margin="5dp">
+
+
+        <EditText
+            android:id="@+id/txtMaturityAmount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Maturity Amount" />
+
+        <EditText
+            android:id="@+id/txtNoOfInstallment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No Of Installments (2 to 10)"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="Installment Mode :"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioInstallmentMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yearly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yearly"
+                />
+
+            <RadioButton
+                android:id="@+id/halfyearly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halfyearly" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginRight="10.0dip"
+                android:textAllCaps="false"
+                android:layout_marginTop="5.0dip"
+                android:background="@color/colorPrimaryDark"
+                android:text="Calculate"
+                android:textStyle="bold"
+                android:textColor="@color/textColorPrimary" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/btnback"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/textColorPrimary"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

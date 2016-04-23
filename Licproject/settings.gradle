@@ -1,0 +1,3 @@
+include ':app', ':licapp', ':reminder'
+include ':meme2Demo'
+include ':meme2Demo_new'

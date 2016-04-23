@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fund_choice">
+        <item>Bond</item>
+        <item>Secured</item>
+        <item>Balanced</item>
+        <item>Growth</item>
+    </string-array>
+    <string-array name="plan_category">
+        <item>--Select Plan Group--</item>
+        <item>Endowment Plan</item>
+        <item>Money Back Plan</item>
+        <item>Pension</item>
+        <item>Children</item>
+        <item>Term</item>
+        <item>Health Plan</item>
+        <item>Ulip</item>
+    </string-array>
+    <string-array name="plan_group">
+        <item>--Select Plan Group--</item>
+        <item>Endowment Plans</item>
+        <item>MoneyBack Plans</item>
+        <item>Children Plans</item>
+    </string-array>
+    <string-array name="sp_Familydiscount">
+        <item>0</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="term830">
+        <item>12</item>
+        <item>16</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="ppt830">
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="sp_tax">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="settelment_options">
+        <item>Advance</item>
+    </string-array>
+    <string-array name="settelment_mode">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+    </string-array>
+    <string-array name="sp_all_plan">
+        <item>810/189</item>
+        <item>814</item>
+        <item>815</item>
+        <item>816</item>
+        <item>817</item>
+        <item>818</item>
+        <item>820</item>
+        <item>821</item>
+        <item>822</item>
+        <item>823</item>
+        <item>827</item>
+        <item>830</item>
+        <item>832</item>
+        <item>833</item>
+        <item>834</item>
+    </string-array>
+    <string-array name="plan_title">
+        <item>Jeevan Akshay - VI</item>
+        <item>The Endowment Assurance Policy</item>
+        <item>Jeevan Anand</item>
+        <item>Bima Bachat</item>
+        <item>Endowment Plan</item>
+        <item>New Jeevan Nidhi</item>
+        <item>The Money Back Policy - 20 Years</item>
+        <item>New Money Back Policy - 25 Years</item>
+        <item>Anmol Jeevan - II</item>
+        <item>Amulya Jeevan - II</item>
+        <item>Jeevan Rakshak</item>
+        <item>Limited Payment</item>
+        <item>New Children Money Back</item>
+        <item>Jeevan Lakshya</item>
+        <item>Jeevan Tarun</item>
+    </string-array>
+    <string-array name="settelment_class">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="sp_class">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="sp_class1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sp_class2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="typeOfIssue">
+        <item>---Select Issue Type---</item>
+        <item>Format</item>
+        <item>Mobile Change</item>
+        <item>Updation Problem</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="division_array">
+        <item>AGRA</item>
+        <item>AHMEDABAD</item>
+        <item>AJMER</item>
+        <item>ALIGARH</item>
+        <item>ALLAHABAD</item>
+        <item>AMRAVATI</item>
+        <item>AMRITSAR</item>
+        <item>ASANSOL</item>
+        <item>AURANGABAD</item>
+        <item>BANGALORE-1</item>
+        <item>BANGALORE-2</item>
+        <item>BARDHAMAN</item>
+        <item>BAREILLY</item>
+        <item>BEGUSARAI</item>
+        <item>BELGAUM</item>
+        <item>BERHAMPUR</item>
+        <item>BHAGALPUR</item>
+        <item>BHAVNAGAR</item>
+        <item>BHOPAL</item>
+        <item>BHUBANESWAR</item>
+        <item>BIKANER</item>
+        <item>BILASPUR</item>
+        <item>BONGAIGAON</item>
+        <item>CALCUTTA (M)-I</item>
+        <item>CALCUTTA (M)-II</item>
+        <item>CALCUTTA (S)</item>
+        <item>CHANDIGARH</item>
+        <item>CHENNAI I</item>
+        <item>CHENNAI II</item>
+        <item>COIMBATORE</item>
+        <item>CUTTACK</item>
+        <item>DEHRADUN</item>
+        <item>DELHI DO-I</item>
+        <item>DELHI DO-II</item>
+        <item>DELHI-DO-III</item>
+        <item>DHARWAD</item>
+        <item>DIVISION</item>
+        <item>ERNAKULAM</item>
+        <item>FAIZABAD</item>
+        <item>GANDHINAGAR</item>
+        <item>GOA</item>
+        <item>GORAKHPUR</item>
+        <item>GUWAHATI</item>
+        <item>GWALIOR</item>
+        <item>HALDWANI</item>
+        <item>HAZARIBAGH</item>
+        <item>HOWRAH</item>
+        <item>HYDERABAD</item>
+        <item>INDORE</item>
+        <item>JABALPUR</item>
+        <item>JAIPUR I</item>
+        <item>JAIPUR-II</item>
+        <item>JALANDHAR</item>
+        <item>JALPAIGURI</item>
+        <item>JAMSHEDPUR</item>
+        <item>JODHPUR</item>
+        <item>JORHAT</item>
+        <item>KADAPA</item>
+        <item>KANPUR</item>
+        <item>KARIMNAGAR</item>
+        <item>KARNAL</item>
+        <item>KHARAGPUR</item>
+        <item>KOLHAPUR</item>
+        <item>KOTTAYAM</item>
+        <item>KOZHIKODE</item>
+        <item>LUCKNOW</item>
+        <item>LUDHIANA</item>
+        <item>MACHILIPATNAM</item>
+        <item>MADURAI</item>
+        <item>MEERUT</item>
+        <item>MUMBAI DO I</item>
+        <item>MUMBAI DO-II</item>
+        <item>MUMBAI DO-III</item>
+        <item>MUMBAI DO-IV</item>
+        <item>MUMBAI SSS</item>
+        <item>MUZAFFARPUR</item>
+        <item>MYSORE</item>
+        <item>NADIAD</item>
+        <item>NAGPUR</item>
+        <item>NANDED</item>
+        <item>NASHIK</item>
+        <item>NELLORE</item>
+        <item>PATNA-I</item>
+        <item>PATNA-II</item>
+        <item>PUNE 1</item>
+        <item>PUNE 2</item>
+        <item>RAICHUR</item>
+        <item>RAIPUR</item>
+        <item>RAJAHMUNDRY</item>
+        <item>RAJKOT</item>
+        <item>ROHTAK</item>
+        <item>SALEM</item>
+        <item>SAMBALPUR</item>
+        <item>SATARA</item>
+        <item>SATNA</item>
+        <item>SECUNDERABAD</item>
+        <item>SHAHDOL</item>
+        <item>SHIMLA</item>
+        <item>SHIMOGA</item>
+        <item>SILCHAR</item>
+        <item>SRINAGAR</item>
+        <item>SURAT</item>
+        <item>THANE</item>
+        <item>THANJAVUR</item>
+        <item>THRISSUR</item>
+        <item>TIRUNELVELI</item>
+        <item>TRIVANDRUM</item>
+        <item>UDAIPUR</item>
+        <item>UDUPI</item>
+        <item>VADODARA</item>
+        <item>VARANASI</item>
+        <item>VELLORE</item>
+        <item>VISHAKHAPATTANAM</item>
+        <item>VIZAG</item>
+        <item>WARANGAL</item>
+    </string-array>
+    <string-array name="internationalclub">
+        <item>None</item>
+        <item>MDRT</item>
+        <item>COT</item>
+        <item>TOT</item>
+    </string-array>
+    <string-array name="clubmembership">
+        <item>None</item>
+        <item>DISTINGUISHED AGENTS CLUB</item>
+        <item>BRANCH MANAGER CLUB</item>
+        <item>DIVISIONAL MANAGER CLUB</item>
+        <item>ZONAL MANAGER CLUB</item>
+        <item>CHAIRMANS CLUB</item>
+        <item>GALAXY CLUB</item>
+        <item>CORPORATE CLUB</item>
+    </string-array>
+    <string-array name="Sp_mode">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS/ECS</item>
+    </string-array>
+    <string-array name="Sp_mode820">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+    </string-array>
+    <string-array name="calculationChoice">
+        <item>Sum Assured</item>
+        <item>Premium</item>
+        <item>Maturity</item>
+    </string-array>
+    <string-array name="survivalbenefitchoice">
+        <item>No Survival Benefit</item>
+        <item>5% Survival Benefit</item>
+        <item>10% Survival Benefit</item>
+        <item>15% Survival Benefit</item>
+    </string-array>
+    <string-array name="modes">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS/ECS</item>
+    </string-array>
+    <string-array name="Sp_mode904">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+    </string-array>
+    <string-array name="Sp_mode810">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS/ECS</item>
+    </string-array>
+    <string-array name="sp_choice">
+        <item>H-Annuity For Life With A Provision For 50% Of Annuity Payable To Spouse</item>
+        <item>F-Return Of Purchase Price On Death Of The Annutant</item>
+        <item>A-Annuity For Life Time</item>
+        <item>B-5 YRS Guaranteed &amp; CERTAIN</item>
+        <item>C-10 YRS Guaranteed &amp; CERTAIN</item>
+        <item>D-15 YRS Guaranteed &amp; CERTAIN</item>
+        <item>E-20 YRS Guaranteed &amp; CERTAIN</item>
+        <item>G-Annuity For Life Increase At Simple 3% P.A.</item>
+        <item>I-Annuity For Life With A Provision For 100% Of Annuity Payable To Spouse</item>
+        <item>J-Annuity For Life &amp; 100% To Spouse On The Death Of Annuitant With Return Of Purchase Price</item>
+    </string-array>
+    <string-array name="Sp_mode818">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS/ECS</item>
+        <item>Single Premium</item>
+    </string-array>
+    <string-array name="Sp_annuitymode810">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS/ECS</item>
+    </string-array>
+    <string-array name="Sp_gicsumassured">
+        <item>0</item>
+        <item>50000</item>
+        <item>75000</item>
+        <item>100000</item>
+        <item>125000</item>
+        <item>150000</item>
+        <item>175000</item>
+        <item>200000</item>
+        <item>250000</item>
+        <item>300000</item>
+        <item>350000</item>
+        <item>400000</item>
+        <item>450000</item>
+        <item>500000</item>
+    </string-array>
+    <string-array name="rg_all">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Qutrly</item>
+        <item>SSS/ECS</item>
+    </string-array>
+    <string-array name="rg_ah">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+    </string-array>
+    <string-array name="sp_mode">
+        <item>Single Premium</item>
+    </string-array>
+    <string-array name="plan_arrays">
+        <item>By Plan No</item>
+        <item>By Plan Name</item>
+    </string-array>
+    <string-array name="sex_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="mode_arrays">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+    </string-array>
+    <string-array name="mode1_arrays">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS</item>
+    </string-array>
+    <string-array name="modes_arrays">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string-array name="pmodes_arrays">
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+        <item>SSS</item>
+    </string-array>
+    <string-array name="pmodes1_arrays">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>SSS</item>
+    </string-array>
+    <string-array name="fundname_arrays">
+        <item>Bond</item>
+        <item>Secured</item>
+        <item>Balanced</item>
+        <item>Growth</item>
+    </string-array>
+    <string-array name="premmodes_arrays">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+        <item>SSS</item>
+        <item>Single Premium</item>
+    </string-array>
+    <string-array name="premmodes1_arrays">
+        <item>All</item>
+        <item>Yearly</item>
+        <item>Half Yearly</item>
+        <item>Quarterly</item>
+        <item>Monthly</item>
+        <item>SSS</item>
+    </string-array>
+    <string-array name="singlemode_arrays">
+        <item>Single Premium</item>
+    </string-array>
+    <string-array name="planno_arrays">
+        <item>814</item>
+        <item>815</item>
+        <item>833</item>
+    </string-array>
+    <string-array name="plannos_arrays">
+        <item>5</item>
+        <item>14</item>
+        <item>88</item>
+        <item>91</item>
+        <item>133</item>
+        <item>149</item>
+        <item>165</item>
+    </string-array>
+    <string-array name="habit_arrays">
+        <item>Tobacco</item>
+        <item>Smoking</item>
+        <item>Drink</item>
+        <item>Drug</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="profile_arrays">
+        <item>Individual</item>
+        <item>Senior Citizen (60 To 79)</item>
+        <item>Super Senior Citizen (80 and above)</item>
+    </string-array>
+    <string-array name="city_arrays">
+        <item>Delhi,Mumbai,Kolkata,Chennai</item>
+        <item>All Other City</item>
+    </string-array>
+    <string-array name="plan810">
+        <item>Life Time</item>
+        <item>5 YRS CERTAIN</item>
+        <item>10 YRS CERTAIN</item>
+        <item>15 YRS CERTAIN</item>
+        <item>20 YRS CERTAIN</item>
+        <item>Return Of Purchase Price On Death Of The Annuatant</item>
+        <item>Life Increasing at Simle Rate 3% P.A.</item>
+        <item>Life With A Provision For 50% Of Annuity Payable To Spouse</item>
+        <item>Life With A Provision For 100% Of Annuity Payable To Spouse</item>
+        <item>Spouse On the Death Of Annuitant With Return Of Purchase Price</item>
+    </string-array>
+    <string-array name="planname_arrays">
+        <item>2-Whole Life(With profit)</item>
+        <item>5-Whole Life Limited Payment(With Profit)</item>
+        <item>8-Whole Life single Payment(With Profit)</item>
+        <item>14-Endowment Assurance(With Profit)</item>
+        <item>41-Childrens Deferred Endowment</item>
+        <item>43-Temporary Assurance(With Profit)</item>
+        <item>50-Childrens Deferred Endowment Assurance</item>
+        <item>48-Endowment(With Profit)</item>
+        <item>75-Money Back(With Profit)</item>
+        <item>88-Jeevan mitra(With Profit)</item>
+        <item>89-Jeevan Sathi(With Profit)</item>
+        <item>90-Marriage Endowment/Education Annuity</item>
+        <item>91-New Jan Raksha(With Profit)</item>
+        <item>93-Money Back(With Profit)</item>
+        <item>102-Jeevan Kishore(Without Profit)</item>
+        <item>103-Jeevan Chhaya(Without Profit)</item>
+        <item>106-Jeevan Surbhi(With Profit)</item>
+        <item>107-Jeevan Surbhi(With Profit)</item>
+        <item>108-Jeevan Surbhi(With Profit)</item>
+        <item>114-Jeevan Aadhar(With GA)</item>
+        <item>133-Jeevan Mitra Triple Cover Assurance(With Profit)</item>
+        <item>136-Jeevan Viswas(Without Profit GA)</item>
+        <item>149-Jeevan Anand(With Profit)</item>
+        <item>159-Komal jeevan(Without Profit)</item>
+        <item>162-Jeevan Shree-I</item>
+        <item>164-Anmol Jeevan-I</item>
+        <item>165-Jeevan Saral</item>
+        <item>167-Jeevan Pramukh</item>
+        <item>168-Jeevan Anurag</item>
+        <item>171-Bima Nivesh 2005</item>
+        <item>175-Bima Bachat</item>
+        <item>179-New Bima Gold(With Profit)</item>
+        <item>184-Child Career Plan</item>
+        <item>185-Child Future Plan</item>
+        <item>189-Jeevan Akshay-VI</item>
+        <item>190-Amulya Jeeban-1</item>
+        <item>192-Jeevan Bharati</item>
+        <item>807-Jeevan Ankur</item>
+        <item>812-New Jeevan Nidhi</item>
+        <item>813-Jeevan Sugam</item>
+    </string-array>
+    <string-array name="salutation">
+        <item>Mr</item>
+        <item>Miss</item>
+        <item>Mrs</item>
+        <item>Kumar</item>
+        <item>Master</item>
+        <item>Er</item>
+        <item>Dr</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Select Mode</item>
+        <item>YLY</item>
+        <item>HLY</item>
+        <item>QLY</item>
+        <item>MLY</item>
+        <item>SGL</item>
+    </string-array>
+    <string-array name="clienttype">
+        <item>Select Client Type</item>
+        <item>NRI</item>
+        <item>HNI</item>
+    </string-array>
+    <string-array name="incometype">
+        <item>Select Income Type</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="maritalstatus">
+        <item>Select Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow</item>
+        <item>Separated</item>
+        <item>Annulied</item>
+    </string-array>
+    <string-array name="bloodgroup">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="liccompany">
+        <item>Select LIC Company</item>
+        <item>Life Insurance Corporation of India</item>
+        <item>Max New York Life Insurance Co</item>
+        <item>Aviva Life Insurance Co</item>
+        <item>HDFC Standard Life Insurance Co</item>
+        <item>Birla Sun Life Insurance Co</item>
+        <item>ING Vysya life Insurance Co</item>
+        <item>Kotal Mahindra Old Mutual Life Insurance</item>
+        <item>Met Life India Insurance Co</item>
+        <item>Tata AIG Life Insurance Co</item>
+        <item>SBI Life Insurance</item>
+        <item>Reliance Life Insurance Co</item>
+        <item>Bharti AXA Life Insurance Co</item>
+        <item>Future Generali Life Insurance Co</item>
+        <item>Shriram Life Insurance Co</item>
+        <item>AEGON Religare Life Insurance Co</item>
+        <item>IDBI Fortis Life Insurance Co</item>
+        <item>Canara HSBC Oriental Bank of Commerce Life Insurance Co</item>
+        <item>Star Union Dai-ichi Life Insurance Co</item>
+        <item>DLF Pramerica Life Insurance Co</item>
+        <item>Sahara India Life Insurance Co</item>
+        <item>ICICI Prudential Life Insurance Co</item>
+        <item>Bajaj Allianz Life Insurance Co</item>
+    </string-array>
+    <string-array name="planno">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>47</item>
+        <item>48</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+        <item>121</item>
+        <item>122</item>
+        <item>123</item>
+        <item>124</item>
+        <item>125</item>
+        <item>126</item>
+        <item>127</item>
+        <item>128</item>
+        <item>129</item>
+        <item>130</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>139</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>149</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>185</item>
+        <item>186</item>
+        <item>187</item>
+        <item>188</item>
+        <item>189/810</item>
+        <item>190</item>
+        <item>191</item>
+        <item>192</item>
+        <item>193</item>
+        <item>194</item>
+        <item>195</item>
+        <item>196</item>
+        <item>197</item>
+        <item>198</item>
+        <item>199</item>
+        <item>200</item>
+        <item>201</item>
+        <item>801</item>
+        <item>802</item>
+        <item>803</item>
+        <item>804</item>
+        <item>805</item>
+        <item>806</item>
+        <item>807</item>
+        <item>808</item>
+        <item>809</item>
+        <item>810</item>
+        <item>811</item>
+        <item>812</item>
+        <item>813</item>
+        <item>814</item>
+        <item>815</item>
+        <item>816</item>
+        <item>817</item>
+        <item>818</item>
+        <item>818SP</item>
+        <item>819</item>
+        <item>819</item>
+        <item>820</item>
+        <item>821</item>
+        <item>822</item>
+        <item>823</item>
+        <item>824</item>
+        <item>825</item>
+        <item>826</item>
+        <item>827</item>
+        <item>828</item>
+        <item>829</item>
+        <item>830</item>
+        <item>831</item>
+        <item>832</item>
+        <item>833</item>
+        <item>834</item>
+        <item>835</item>
+        <item>836</item>
+        <item>837</item>
+        <item>838</item>
+        <item>839</item>
+        <item>840</item>
+        <item>901</item>
+        <item>902</item>
+        <item>903</item>
+        <item>904</item>
+    </string-array>
+    <string-array name="messageTemplate">
+        <item>Custom Message Template</item>
+    </string-array>
+    <string-array name="filterGroupType">
+        <item>Individual</item>
+    </string-array>
+    <string-array name="reminderlist">
+        <item>Birthday Reminder</item>
+        <item>Anniversary Reminder</item>
+        <item>LIC Policy Welcome Message</item>
+        <item>GIC Policy Welcome Message</item>
+        <item>LIC Suffix</item>
+        <item>GIC Suffix</item>
+        <item>Policy Maturity Suffix</item>
+        <item>Survival Benefit Suffix</item>
+        <item>ECS Suffix</item>
+        <item>Lapsed Suffix</item>
+        <item>Payment Thanks Suffix</item>
+    </string-array>
+    <string-array name="fincalitemname">
+        <item>Human Life Value</item>
+        <item>Retirement Planner</item>
+        <item>Education Planner</item>
+        <item>Marriage Planner</item>
+        <item>Inflation Calculator</item>
+        <item>Fixed Deposit</item>
+        <item>EMI / Loan</item>
+        <item>Present Value Calculator</item>
+        <item>Health Planner</item>
+        <item>Habit Saving Calculator</item>
+    </string-array>
+
+</resources>

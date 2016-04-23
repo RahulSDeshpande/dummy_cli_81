@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5.0dip">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">"
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="40.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/InflationCost"
+            android:layout_width="140.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_toRightOf="@+id/Age"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="65.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_toRightOf="@+id/InflationCost"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/footerlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/InflationCost"
+            android:text="Total Cost Required (Rs.)"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/TotalValue"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Amount"
+            android:layout_toRightOf="@+id/Total"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footerlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/footerlayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Lumpsum"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Total"
+            android:text="Money to save now (Rs.)  ( LUMPSUM /SINGLE)"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/LumpsumValue"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TotalValue"
+            android:layout_toRightOf="@id/Lumpsum"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footerlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/footerlayout1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Annually"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Lumpsum"
+            android:text="Money to save now (Rs.)(ANNUALLY)"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/AnnuallyValue"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LumpsumValue"
+            android:layout_toRightOf="@id/Annually"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </RelativeLayout>
+</RelativeLayout>

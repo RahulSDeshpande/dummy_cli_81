@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etProfileDesignation"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Designation / Post"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etProfileContactNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etProfileEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email Id"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etProfileWebsite"
+                android:inputType="textWebEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/ivProfilePhoto"
+                    android:layout_width="0dp"
+                    android:scaleType="fitCenter"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:src="@drawable/silhoutte_color_1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    android:padding="4dp"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/btnProfilePickPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="4dp"
+                        android:layout_weight="5"
+                        android:text="Pick Photo"
+                        android:background="@color/colorPrimaryDark"
+                        android:textAllCaps="false"
+                        android:textColor="@color/textColorPrimary" />
+
+                    <Button
+                        android:id="@+id/btnProfileSave"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="4dp"
+                        android:layout_weight="5"
+                        android:text="Save Profile"
+                        android:background="@color/colorPrimaryDark"
+                        android:textAllCaps="false"
+                        android:textColor="@color/textColorPrimary" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
